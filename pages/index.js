@@ -5,7 +5,6 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { useState } from "react";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -21,9 +20,7 @@ import Hero from "../components/Hero"
 import Skill from "../components/Skill";
 import Portofolio from "../components/Portofolio";
 
-const changeColor = ()=>{
-  const [darkMode, setDarkMode] = useState(false);
-}
+
 
 export default function Home() {
  
