@@ -19,7 +19,7 @@ export default function Skill() {
         <div className='desktop:flex desktop:flex-wrap ' >
            <div className='text-center shadow-3xl p-10 rounded-xl my-10 desktop:w-40  desktop:mx-8 dark:bg-white    '>
                 <Image src={javascrpit} width={100} height={100}alt='foto'/>
-                <h3 className='text-lg font-medium pt-4 pb-2'>Javascript</h3>
+                <p className='text-lg font-medium pt-4 pb-2 sm:text-lg'>Javascript</p>
            </div>
            <div className='text-center shadow-3xl p-10 rounded-xl my-12 desktop:w-40  desktop:mx-8 dark:bg-white  '>
                 <Image src={html} width={100} height={100}alt='foto'/>
@@ -33,7 +33,7 @@ export default function Skill() {
                 <Image src={react} width={100} height={100}alt='foto'/>
                 <h3 className='text-lg font-medium pt-4 pb-2'>React</h3>
            </div>
-           <div className='text-center shadow-3xl p-10 rounded-xl my-12 ml-8 dark:bg-white '>
+           <div className='text-center shadow-3xl p-10 rounded-xl my-12 ml-8 dark:bg-white sm:w-[27rem] sm:-ml-1 '>
                 <Image src={tailwind} width={80} height={80} alt='foto'/>
                 <h3 className='text-lg font-medium pt-4 pb-2'>Tailwind</h3>
            </div>
