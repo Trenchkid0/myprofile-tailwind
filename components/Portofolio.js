@@ -38,21 +38,21 @@ export default function Portofolio() {
         function createUserCard (user){
     
             const cardHTML  = `
-            <div class="flex p-3 max-w-xl">
+            <div class="flex p-3 max-w-xl ">
                 <div class="img-container">
                     <img class="border-black border-solid ring-8 ring-black rounded-full " src="${user.avatar_url}" alt="${user.name}" />
                 </div>
                 <div class="ml-10">
-                        <h2 class="mt-0 mb-4 text-xl font-bold">${user.name}</h2>
-                        <p  class="mb-4">${user.bio}</p>
+                        <h2 class="mt-0 mb-4 text-xl font-bold dark:text-white">${user.name}</h2>
+                        <p  class="mb-4 dark:text-white">${user.bio}</p>
         
                         <ul class="flex space-between space-x-8 w-60">
-                            <li class="flex align-middle">${user.followers}<strong class="ml-2">Followers</strong></li>
-                            <li class="flex align-middle">${user.following}<strong class="ml-2">Following</strong></li>
-                            <li class="flex align-middle">${user.public_repos}<strong class="ml-2">Repos</strong></li>
+                            <li class="flex align-middle dark:text-white">${user.followers}<strong class="ml-2">Followers</strong></li>
+                            <li class="flex align-middle dark:text-white">${user.following}<strong class="ml-2">Following</strong></li>
+                            <li class="flex align-middle dark:text-white">${user.public_repos}<strong class="ml-2">Repos</strong></li>
                         </ul>
         
-                        <h4 class="mt-10">Repos :</h4>
+                        <h4 class="mt-10 dark:text-white">Repos :</h4>
                         <div class="" id="repos"></div>
                     </div>
             </div>    
@@ -96,8 +96,8 @@ export default function Portofolio() {
   return (
 
     <section className='flex align-middle justify-center mt-52 h-96'>
-        <h1 className='absolute -mt-44 font-bold text-xl'>This is my Github</h1>
-        <p className='absolute -mt-32 font-bold text-xl'>Click Repo for views</p>
+        <h1 className='absolute -mt-44 font-bold text-xl dark:text-white'>This is my Github</h1>
+        <p className='absolute -mt-32 font-bold text-xl dark:text-white'>Click Repo for views</p>
         <form id="form">
            
         </form>
