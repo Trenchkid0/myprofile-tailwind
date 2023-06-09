@@ -27,6 +27,7 @@ module.exports = {
         'lingkar':'50%'
       },
       width: {
+        '31':"31rem",
         '33': '33rem',
         '25': '28rem',
         '38': '38rem',
