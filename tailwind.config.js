@@ -17,6 +17,8 @@ module.exports = {
       screens:{
         'desktop': '1280px',
         'sm': {'min': '320px', 'max': '480px'},
+        'md': {'min': '768px', 'max': '1023px'},
+        'lg': {'min': '1024px', 'max': '1279px'},
       },
       colors: {
         'hitam-pudar': '#252525',
@@ -25,8 +27,10 @@ module.exports = {
         'lingkar':'50%'
       },
       width: {
-        '32': '32rem',
-        '25': '27rem',
+        '33': '33rem',
+        '25': '28rem',
+        '38': '38rem',
+        '44': '44rem',
       },
       height: {
         '128': '190rem',
