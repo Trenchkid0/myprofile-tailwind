@@ -23,29 +23,101 @@ a {
   src: url("../public/Burtons.otf");
 }
 
+.githubprofile{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+
+.card{
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+      0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  width: 700px;
+  max-width: 800px;
+}
+.avatar {
+  border: 10px solid #000000;
+  border-radius: 50%;
+  height: 130px;
+  width: 400px;
+}
+
+.user-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+.user-info h2{
+  margin-top: 0;
+}
+.user-info ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none !important;
+  width: 300px;
+  max-width: 400px;
+}
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.titlerepos{
+  margin-top: 3rem;
+  margin-bottom: 10px;
+  
+}
+
+.repos{
+  width: 90%;
+}
 .repo {
   background-color: #252525;
   border-radius: 5px;
   display: inline-block;
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   text-decoration: none;
 }
-.card{
-  margin-top: -2rem;
-  margin-right: 1rem;
-}
-.reposi{
-  margin-top: rem;
-}
-.githubtitle{
-  position: absolute;
-  width: 60%;
-  left: 31rem;
-  margin-top: 1rem;
-}
-.dark{
+
+@media only screen and (max-width: 600px){
+  .card{
+    width: 480px;
+  }
+  .img-container{
+    /* border: 10px solid white; */
+    width: 300px;
+    margin-left: -2rem;
+  }
+  .avatar{
+    /* margin-left: -2rem; */
+    height: auto;
+    width: auto;
+    /* border: 10px solid white; */
+  }
+  .titlerepos{
+    margin-left: -5rem;
+  }
+  .repos{
+    margin-left: -5rem;
+    width: 140%;
+  }
 }

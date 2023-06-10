@@ -39,7 +39,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40 sm:w-[44rem]  sm:h-[210rem] ">
         <nav className='py-10 mb-12 flex justify-between dark:text-white'>
             <h1 className='text-xl font-burtons'>DevbyYo</h1>
-            {/* <BsFillMoonStarsFill className="cursor-pointer" onClick={()=>handleChangeBg()}/> */}
+            <BsFillMoonStarsFill className="cursor-pointer" onClick={()=>handleChangeBg()}/>
         </nav>
         <Hero/>
         <Skill/>  
