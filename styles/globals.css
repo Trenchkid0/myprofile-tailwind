@@ -35,16 +35,17 @@ a {
   text-decoration: none;
 }
 .card{
-  margin-top: 5rem;
-  margin-right: 3rem;
+  margin-top: -2rem;
+  margin-right: 1rem;
 }
 .reposi{
-  margin-top: 3rem;
-  margin-left: -8rem; 
+  margin-top: rem;
 }
 .githubtitle{
   position: absolute;
-  width: 100%;
-  margin-left: 8rem;
-  margin-top: 5rem;
+  width: 60%;
+  left: 31rem;
+  margin-top: 1rem;
+}
+.dark{
 }

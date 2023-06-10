@@ -33,8 +33,8 @@ export default function Skill() {
                 <Image src={react} width={100} height={100}alt='foto'/>
                 <h3 className='text-lg font-medium pt-4 pb-2'>React</h3>
            </div>
-           <div className='text-center shadow-3xl p-10 rounded-xl my-12 ml-8 dark:bg-white sm:w-[28rem] sm:-ml-1 md:w-[38rem] md:ml-1 lg:w-[44rem] lg:-ml-1 '>
-                <Image src={tailwind} width={80} height={80} alt='foto'/>
+           <div className='text-center shadow-3xl p-10 rounded-xl my-12 desktop:w-40  desktop:mx-8 dark:bg-white '>
+                <Image src={tailwind} width={100} height={100} alt='foto'/>
                 <h3 className='text-lg font-medium pt-4 pb-2'>Tailwind</h3>
            </div>
         </div>
