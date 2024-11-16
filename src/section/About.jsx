@@ -59,8 +59,8 @@ const About = () => {
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                 labelsData={[
                   {
-                    lat: -6.2088, // Latitude for Jakarta
-                    lng: 106.8456, // Longitude for Jakarta
+                    lat: -6.2088,
+                    lng: 106.8456,
                     text: "I'm Here",
                     color: "white",
                     size: 15,
