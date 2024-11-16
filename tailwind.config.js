@@ -1,43 +1,31 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  darkMode: "class",
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-  ],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
-        poppins: ["Poppins", "sans-serif"],
-      },
-      boxShadow: {
-        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
-      },
-      screens:{
-        'desktop': '1280px',
-        'sm': {'min': '320px', 'max': '480px'},
-        'md': {'min': '768px', 'max': '1023px'},
-        'lg': {'min': '1024px', 'max': '1279px'},
+        generalsans: ["General Sans", "sans-serif"],
       },
       colors: {
-        'hitam-pudar': '#252525',
+        black: {
+          DEFAULT: "#000",
+          100: "#010103",
+          200: "#0E0E10",
+          300: "#1C1C21",
+          500: "#3A3A49",
+          600: "#1A1A1A",
+        },
+        white: {
+          DEFAULT: "#FFFFFF",
+          800: "#E4E4E6",
+          700: "#D6D9E9",
+          600: "#AFB0B6",
+          500: "#62646C",
+        },
       },
-      borderRadius: {
-        'lingkar':'50%'
+      backgroundImage: {
+        terminal: "url('/assets/terminal.png')",
       },
-      width: {
-        '31':"31rem",
-        '33': '33rem',
-        '25': '28rem',
-        '38': '38rem',
-        '44': '44rem',
-      },
-      height: {
-        '128': '210rem',
-      }
-
-     
     },
   },
   plugins: [],
