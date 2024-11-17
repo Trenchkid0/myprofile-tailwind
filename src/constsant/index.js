@@ -19,6 +19,11 @@ export const navLinks = [
     name: "Contact",
     href: "#contact",
   },
+  {
+    id: 4,
+    name: "My mini game",
+    href: "https://mini-games-yo.vercel.app/",
+  },
 ];
 
 export const myProjects = [
